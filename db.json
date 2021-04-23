@@ -8,7 +8,7 @@
       "duration": "Continous",
       "location": "Wanzele",
       "speakers": [],
-      "description": "<p> When you first start looking at this site, you might wonder: \"How did this amazing site came into existence\". Well that's exactly what this blogpost is about.</p> <p> This site is made using Vuejs, an open-source, model-view front-end Javascript framework, which I learned using the online Vue Mastery Course. Using Vuejs enables you to make more modular websites with reusable components. On this website you will be able to find my personal expierences with events, educaitons, courses, and more.</p> ",
+      "description": "<p> When you first start looking at this site, you might wonder: \"How did this amazing site came into existence\". Well that's exactly what this blogpost is about.</p> <p> This site is made using Vuejs, an open-source, model-view front-end Javascript framework, which I learned using the online Vue Mastery Course.</p><p>Since I might want to use these posts later on on different website I've chosen to store them in a database. Currently that's done by using json-server. That's a fake json-server which is easy to install and use, as extra it's also easy to host it online.</p><p> Using Vuejs enables you to make more modular websites with reusable components. On this website you will be able to find my personal expierences with events, educaitons, courses, and more.</p> ",
       "organizer": "",
       "attendees": 1,
       "tags": ["Project", "Self-made", "Vuejs", "Front-end", "Active"]
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "title": "PlanetTalent webinar introductie tot AI",
+      "title": "PlanetTalent webinar introduction to AI",
       "date": "4/20/2021",
       "time": "17:00",
       "duration": "1 hour",
@@ -41,13 +41,13 @@
     },
     {
       "id": 4,
-      "title": "Web accessibility summit opname",
+      "title": "Web accessibility summit Recording",
       "date": "4/21/2021",
       "time": "13:00",
       "duration": "1 hour",
       "location": "https://www.youtube.com/watch?v=7deb5SY24NM",
       "speakers": ["Penny Kronz"],
-      "description": "<p>Vandaag heb ik de web accessibility summit opname gekeken gegeven door Penny Kronz. Hier in werd kort uitgelegd hoe, waar, en wanneer aria tags te gebruiken.</p><p>De opname is zeker een aanrader voor mensen die: hun site meer accessible proberen te maken, willen bijleren over accessibility, of geintresseerd zijn in html. Mij heeft het ondermeer geholpen een unordered list tabbable te maken.</p>",
+      "description": "<p>Today I watched the web accessibility summit recording. In this video Penny Kronz gave a short explanation about when, where, and how to use Aria tags.</p><p>I trully recommend the recording to people who want: to learn about site accessibility, make their own site more accesible, or want to learn about html in general. I've already used the knownledge I learned to make an ul(unordered list) tabbable, and a searchbar readable to screenreaders.</p>",
       "organizer": "PlanetTalent",
       "attendees": 1,
       "tags": ["Online", "Opname", "Event", "Front-end", "Accessibility", "Passive"]
