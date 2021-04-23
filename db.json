@@ -5,6 +5,7 @@
       "title": "Creation of this glorious website",
       "date": "April 17 2021",
       "time": "15:00",
+      "duration": "Continous",
       "location": "Wanzele",
       "speakers": [],
       "description": "<p> When you first start looking at this site, you might wonder: \"How did this amazing site came into existence\". Well that's exactly what this blogpost is about.</p> <p> This site is made using Vuejs, an open-source, model-view front-end Javascript framework, which I learned using the online Vue Mastery Course. Using Vuejs enables you to make more modular websites with reusable components. On this website you will be able to find my personal expierences with events, educaitons, courses, and more.</p> ",
@@ -17,6 +18,7 @@
       "title": "Vue mastery course",
       "date": "April 17 2021",
       "time": "15:00",
+      "duration": "Spread over several days",
       "location": "Online",
       "speakers": [],
       "description": "<p>Recently I followed the Vue mastery courses. These are paid online courses you can follow to educate or improve yourself in Vuejs.</p> <p> In my opinion these courses are defintly worth the money. They are well diversed, split up, downloadable and teach you a lot of stuff. The courses are centered about small project which you can code along with. If you fall behind you can download the solution from their Git so you can not get stuck on a problem.</p>",
@@ -29,6 +31,7 @@
       "title": "PlanetTalent webinar introductie tot AI",
       "date": "4/20/2021",
       "time": "17:00",
+      "duration": "1 hour",
       "location": "Online",
       "speakers": ["Florentijn van ML6"],
       "description": "<p> All out of the sudden I got an invite from PlanetTalent to join their online conference about AI. I decided to join it since the session was given by Florentijn, a member of ML6.</p><p>The talk started with an explaination about ML6 and what they did. Next he gave an overview of the different type of machine learnings. What I liked the most was the part that came after this.</p><p>A large part of the presentation was about use cases ML6 did, for example recognizing the players and ball in a football game. This gave me a better view of what machine learning and AI are actually about. For this reason I would recommend this kind of talks to students who are thinking of starting a study about AI.</p><p>After the presentation there were a few minutes reserve for a Q&A. I toke this chance to ask about the football project and how they solved the issue of having different camera angles. By my suprise he gave a short but clear answer, which is always nice.</p>",
@@ -41,12 +44,26 @@
       "title": "Web accessibility summit opname",
       "date": "4/21/2021",
       "time": "13:00",
+      "duration": "1 hour",
       "location": "https://www.youtube.com/watch?v=7deb5SY24NM",
       "speakers": ["Penny Kronz"],
-      "description": "<p>Vandaag heb ik de web accessibility summit opname gekeken gegeven door Penny Kronz. Hier in werd kort uitgelegd hoe, waar, en wanneer aria tags te gebruiken.</p><p>De opname is zeker een aanrader voor mensen die: hun site meer accessible proberen te maken, willen bijleren over accessibility, of geintresseerd zijn in html. Mij heeft het ondermeer geholpen een unordered list tabbable te maken.",
+      "description": "<p>Vandaag heb ik de web accessibility summit opname gekeken gegeven door Penny Kronz. Hier in werd kort uitgelegd hoe, waar, en wanneer aria tags te gebruiken.</p><p>De opname is zeker een aanrader voor mensen die: hun site meer accessible proberen te maken, willen bijleren over accessibility, of geintresseerd zijn in html. Mij heeft het ondermeer geholpen een unordered list tabbable te maken.</p>",
       "organizer": "PlanetTalent",
       "attendees": 1,
       "tags": ["Online", "Opname", "Event", "Front-end", "Accessibility"]
+    },
+    {
+      "id": 5,
+      "title": "Course: Monitoring and performance tuning SQL server 2019",
+      "date": "4/23/2021",
+      "time": "9:00",
+      "duration": "1 day",
+      "location": "Online",
+      "speakers": ["Pieter Vanhove"],
+      "description": "<p>In my internship position they had planned a course about SQL Servr 2019. This seemed pretty interesting so I asked if I could join it, which was allowed.</p><p>The course was given by Pieter Vanhove, an ex employee of Microsoft for over 6years. The course contained information about: The new features of SQL Server 2019, common causes of slow queries, demo's te solve these problems, tools he liked to use... .The course itself was given really well by Pieter. He mixed theory with: use cases, examples, and demo's of which he later gave us the necessary code to reproduce them.</p><p>Concluded this course is a real recommendation for people looking to: speed up, clean up, or monitor their database systems. However the course is quite complicated and for this reason students might have a hard time understanding most of which is said.</p>",
+      "organizer": "Novado",
+      "attendees": 1,
+      "tags": ["Online", "Event", "course", "SQL Server 2019"]
     }
   ]
 }
