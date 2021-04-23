@@ -6,7 +6,7 @@
             </div>
             <div class="blogInformation">
                 <h2 class="blogTitle">{{blog.title}}</h2>
-                <h3 class="blogSituation">{{blog.date}} | {{blog.location}}</h3>
+                <h3 class="blogSituation">{{blog.date}} | {{blog.location}} | {{blog.duration}}</h3>
                 <p class="blogText" v-html=blog.description></p>
                 <ul class="blogTags">
                     <li v-for="tag in blog.tags" :key="tag.name">
