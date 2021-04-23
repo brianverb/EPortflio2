@@ -1,6 +1,6 @@
 {
   "name": "blog-project",
-  "hompage": "https://brianverb.github.io/EPortfolio",
+  "homepage": "https://brianverb.github.io/EPortfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
