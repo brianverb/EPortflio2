@@ -2,7 +2,7 @@
     <article>
         <div class="blogPositioning">
             <div class="blogImage">
-                <img src="@/assets/logo.png" alt="test">
+                <img :src=getImgUrl(blog.image) alt="test">
             </div>
             <div class="blogInformation">
                 <h2 class="blogTitle">{{blog.title}}</h2>
@@ -26,6 +26,12 @@ export default {
     name: "BlogPost",
     props: {
         blog: Object
+    },
+    methods:{
+         getImgUrl(image) {
+            var images = require.context('../images/', false, /\.jpg$/)
+            return images('./' + image )
+        }
     }
 }
 </script>

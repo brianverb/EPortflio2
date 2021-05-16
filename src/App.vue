@@ -2,8 +2,10 @@
   <div id="app">
     <header id="nav">
       <router-link to="/">Home</router-link> |  
-      <router-link to="/CurriculumVitae">Curruciulum Vitae</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link>  |  
+      <router-link to="/tutorial">Tutorial</router-link>  |  
+      <!-- <router-link to="/curriculum">Curriculum Vitae</router-link>  |  -->
+      <router-link to="/igniteTalk">Ignite Talk</router-link>  
     </header>
     <main>
       <router-view/>

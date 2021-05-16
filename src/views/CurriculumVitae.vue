@@ -1,30 +1,18 @@
 <template>
-    <div>
-        <section>
-            zwarte balk met mission en passion
-        </section>
-        <section>
-            Filter comes here
-        </section>
-        <section>
-            <article>
-                Personal information
-            </article>
-            <article>
-                Skills
-            </article>
-            <article>
-                Education
-            </article>
-            <article>
-                Expierences
-            </article>
-        </section>
-    </div>
-    
-</template>
+<div>
+  <vue-pdf src="../files/Cv_ICT.pdf"></vue-pdf>
+    <link rel="stylesheet" href="@/files/Cv_ICT.pdf" />
+</div>
+  
+</template> 
 <script>
+import vuePdf from 'vue-pdf'
+
 export default {
-    name: "CurriculumVitae"
+    
+name:"CurriculumVitae",
+components:{
+    vuePdf
+}
 }
 </script>

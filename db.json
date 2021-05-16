@@ -11,7 +11,8 @@
       "description": "<p> When you first start looking at this site, you might wonder: \"How did this amazing site came into existence\". Well that's exactly what this blogpost is about.</p> <p> This site is made using Vuejs, an open-source, model-view front-end Javascript framework, which I learned using the online Vue Mastery Course.</p><p>Since I might want to use these posts later on on different website I've chosen to store them in a database. Currently that's done by using json-server. That's a fake json-server which is easy to install and use, as extra it's also easy to host it online.</p><p> Using Vuejs enables you to make more modular websites with reusable components. On this website you will be able to find my personal expierences with events, educaitons, courses, and more.</p> ",
       "organizer": "",
       "attendees": 1,
-      "tags": ["Project", "Self-made", "Vuejs", "Front-end", "Active"]
+      "tags": ["Project", "Self-made", "Vuejs", "Front-end", "Active"],
+      "image": "vue.jpg"
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       "description": "<p>Recently I followed the Vue mastery courses. These are paid online courses you can follow to educate or improve yourself in Vuejs.</p> <p> In my opinion these courses are defintly worth the money. They are well diversed, split up, downloadable and teach you a lot of stuff. The courses are centered about small project which you are encouraged to code along with, which I did. If you fall behind you can download the solution from their Git so you can not get stuck on a problem.</p>",
       "organizer": "",
       "attendees": 1,
-      "tags": ["Education", "Online", "Vuejs", "Front-end", "Active"]
+      "tags": ["Education", "Online", "Vuejs", "Front-end", "Active"],
+      "image": "vue_mastery.jpg"
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
       "description": "<p> All out of the sudden I got an invite from PlanetTalent to join their online conference about AI. I decided to join it since the session was given by Florentijn, a member of ML6.</p><p>The talk started with an explaination about ML6 and what they did. Next he gave an overview of the different type of machine learnings. What I liked the most was the part that came after this.</p><p>A large part of the presentation was about use cases ML6 did, for example recognizing the players and ball in a football game. This gave me a better view of what machine learning and AI are actually about. For this reason I would recommend this kind of talks to students who are thinking of starting a study about AI.</p><p>After the presentation there were a few minutes reserve for a Q&A. I toke this chance to ask about the football project and how they solved the issue of having different camera angles. By my suprise he gave a short but clear answer, which is always nice.</p>",
       "organizer": "PlanetTalent",
       "attendees": 100,
-      "tags": ["Online", "AI", "Event", "ML6", "Machinelearning", "Passive"]
+      "tags": ["Online", "AI", "Event", "ML6", "Machinelearning", "Passive"],
+      "image": "introduction_to_AI.jpg"
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "description": "<p>Today I watched the web accessibility summit recording. In this video Penny Kronz gave a short explanation about when, where, and how to use Aria tags.</p><p>I trully recommend the recording to people who want: to learn about site accessibility, make their own site more accesible, or want to learn about html in general. I've already used the knownledge I learned to make an ul(unordered list) tabbable, and a searchbar readable to screenreaders.</p>",
       "organizer": "PlanetTalent",
       "attendees": 1,
-      "tags": ["Online", "Opname", "Event", "Front-end", "Accessibility", "Passive"]
+      "tags": ["Online", "Opname", "Event", "Front-end", "Accessibility", "Passive"],
+      "image": "web_accessibility_summit.jpg"
     },
     {
       "id": 5,
@@ -63,7 +67,36 @@
       "description": "<p>In my internship position they had planned a course about SQL Servr 2019. This seemed pretty interesting so I asked if I could join it, which was allowed.</p><p>The course was given by Pieter Vanhove, an ex employee of Microsoft for over 6years. The course contained information about: The new features of SQL Server 2019, common causes of slow queries, demo's te solve these problems, tools he liked to use... .The course itself was given really well by Pieter. He mixed theory with: use cases, examples, and demo's of which he later gave us the necessary code to reproduce them. </p><p>Concluded this course is a real recommendation for people looking to: speed up, clean up, or monitor their database systems. However the course is quite complicated and for this reason students might have a hard time understanding most of which is said.</p>",
       "organizer": "Novado",
       "attendees": 1,
-      "tags": ["Online", "Event", "course", "SQL Server 2019", "Passive"]
+      "tags": ["Online", "Event", "course", "SQL Server 2019", "Passive"],
+      "image": "SQL_course.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Global AI Student Conference",
+      "date": "4/24/2021",
+      "time": "12:00",
+      "duration": "1 day",
+      "location": "Online",
+      "speakers": ["Lots of students"],
+      "description": "<p>On the 24th of April, the Global AI Student was held. This is an online event sponsored by Microsoft where multiple student ambassadors showed of a project they made using the AI-platform of Microsoft Azure.</p><p>The course is a true recommendation for students who want to see use cases for AI and hear other students their opinions about it.</p><p>During the conference there was also a competition being held. The competition was rather simple. Each participant got a list of 10 microsoft courses about AI. The first 100 participants who completed 5 of them (each one was about 30-60minutes) had to send a screenshot of their feat. If you were infact one of the first 100 you earned a 100Euro voucher for Microsoft Exams. I was rather interested in some of the course so I decided to follow them and give it a shot. I even got quite lucky and ended up around the first fifty to complete 5 courses, which means I was one of the winners.</p><p>After all is said and done the conference was quite nice and educational, the only downside I found was that some of the student ambassadors had a very pronounced accent which made it very hard to understand. In my opinion the lack of subtitles was a bit strange, defintly when you know they even managed to get a sign language interpreter.</p>",
+      "organizer": "Microsoft",
+      "attendees": 1,
+      "tags": ["AI", "Machine Learning", "Conferene", "Active learning"],
+      "image": "global_student_AI_conference.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Housemarketing project",
+      "date": "2020",
+      "time": "12:00",
+      "duration": "1 Semester",
+      "location": "Howest",
+      "speakers": ["Brian Baert", "Tijs Mertens"],
+      "description": "<p>In my second year on Howest I followed the course: \"Big Data and Business Intelligence\". Here we were tasked to make a project which would predict the price of a house using some Python/Machine learning. It was a group project where we had to study the needed programming knownledge using the online Panda Courses. This kind of project is often used to introduce students to the worlds of big data and machine learning. It was very interesting and intriguing to see how fast you can make a working prediction software.</p>",
+      "organizer": "Howest",
+      "attendees": 50,
+      "tags": ["AI", "Machine Learning", "Python", "Project "],
+      "image": "housemarketing.jpg"
     }
   ]
 }

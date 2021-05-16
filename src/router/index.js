@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import CurriculumVitae from '../views/CurriculumVitae.vue'
-
+import Tutorial from '../views/Tutorial.vue'
+import Curriculum from '../views/CurriculumVitae.vue'
+import IgniteTalk from  '../views/IgniteTalk.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -20,9 +21,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/CurriculumVitae',
-    name: 'CurriculumVitae',
-    component: CurriculumVitae
+    path: '/tutorial',
+    name: 'Tutorial',
+    component: Tutorial
+  },
+  {
+    path: '/curriculum',
+    name: 'Curriculum',
+    component: Curriculum
+  },
+  {
+    path: '/igniteTalk',
+    name: 'IgniteTalk',
+    component: IgniteTalk
   }
 ]
 
